@@ -1,41 +1,21 @@
-# Amazon Sales Performance Dashboard
 
-**Business Analyst Case Study | Power BI | Data Analysis**
+# Amazon Sales Dashboard – Business Insight Analysis
 
-This project analyzes global Amazon sales data to identify **revenue trends, top-performing markets, product category performance, and shipping preferences**. The objective is to convert raw sales data into **actionable business insights** that can support strategic decision-making.
+**Business Analyst Portfolio Project | Power BI | Data Analysis**
 
----
+This project analyzes global Amazon sales data to identify **revenue trends, category performance, market contribution, geographic sales distribution, and shipping preferences**.
 
-# Project Objective
-
-E-commerce companies generate large volumes of transactional data across **multiple regions, product categories, and shipping methods**. Without structured analysis, it becomes difficult to understand:
-
-* Which **products drive the most revenue**
-* Which **markets contribute the highest sales**
-* Which **cities and countries perform best**
-* What **shipping methods customers prefer**
-
-This project aims to answer these questions through **interactive Power BI dashboards and data analysis**.
+The dashboard converts raw transactional data into **actionable business insights** that help stakeholders understand sales performance and make data-driven decisions.
 
 ---
 
-# Dataset Overview
+# Executive Summary
 
-The dataset contains global Amazon sales transaction data including:
+The dashboard analysis of Amazon sales data indicates strong global revenue performance with **total sales of $12.64M generated from 178K units sold**.
 
-| Column        | Description                      |
-| ------------- | -------------------------------- |
-| Order ID      | Unique identifier for each order |
-| Order Date    | Date when order was placed       |
-| Ship Mode     | Delivery method used             |
-| Category      | Product category                 |
-| City          | Delivery city                    |
-| Country       | Customer country                 |
-| Market        | Regional market                  |
-| Sales         | Revenue generated                |
-| Profit        | Profit earned                    |
-| Shipping Cost | Delivery cost                    |
-| Quantity      | Number of products sold          |
+The business achieved **$1.47M in total profit while incurring $1.35M in shipping costs**.
+
+Technology products contribute the largest share of revenue, while the **APAC region leads global market sales**.
 
 ---
 
@@ -48,96 +28,134 @@ The dataset contains global Amazon sales transaction data including:
 | Total Profit        | $1.47M  |
 | Total Shipping Cost | $1.35M  |
 
-These KPIs provide a quick overview of the overall business performance.
+These KPIs provide a high-level overview of overall business performance.
 
 ---
 
-# Dashboard Insights
+# Category-wise Sales Insights
 
-## Category-wise Sales Contribution
+Technology is the **top-performing category**, contributing approximately **37.5% of total sales ($4.74M)**.
 
-Technology is the highest revenue-generating category **($4.74M)** followed by Furniture **($4.11M)** and Office Supplies **($3.79M)**.
+Other category contributions include:
+
+* **Furniture:** $4.11M (32.5%)
+* **Office Supplies:** $3.79M (30%)
 
 **Insight:**
-Technology products drive the largest share of revenue.
+Technology products generate the largest share of revenue, indicating strong customer demand in this category.
 
 ---
 
-## Market-wise Sales Performance
+# Market-wise Sales Insights
 
-APAC contributes the highest sales **($3.59M)** followed by EU **($2.94M)** and US **($2.3M)**.
+The **APAC region leads global sales with $3.59M (28.36%)**.
+
+Other major markets include:
+
+* **EU:** $2.94M (23.24%)
+* **US:** $2.3M (18.17%)
+
+LATAM and EMEA collectively contribute over **23% of total sales**, highlighting growing demand in emerging markets.
 
 **Insight:**
-Asia-Pacific region is the strongest performing market.
+The Asia-Pacific region represents the strongest performing global market.
 
 ---
 
-## Top Cities by Sales
+# City-level Sales Performance
 
-Top performing cities include:
+Top performing cities by revenue include:
 
 * New York City
 * Los Angeles
 * Manila
 
 **Insight:**
-Major metropolitan cities contribute significantly to global revenue.
+Major metropolitan cities contribute significantly to overall sales performance due to higher purchasing power and stronger market demand.
 
 ---
 
-## Shipping Mode Analysis
+# Shipping Mode Analysis
 
-Standard Class shipping accounts for the highest sales volume.
+Sales distribution by shipping mode shows:
+
+* **Standard Class** generates the highest sales volume
+* **Second Class** and **First Class** contribute moderate sales
+* **Same Day shipping** contributes the lowest share
 
 **Insight:**
-Customers prefer **cost-effective delivery options** over premium fast shipping.
+Customers generally prefer **cost-effective delivery options rather than premium fast shipping services**.
 
 ---
 
-## Country-level Sales Performance
+# Country-level Sales Insights
 
-The **United States leads global sales**, followed by Australia and France.
+The **United States leads global country-level sales**.
+
+Other high-performing countries include:
+
+* Australia
+* France
+* China
+* Germany
+* Mexico
+* India
 
 **Insight:**
-Developed markets dominate revenue generation.
+Developed markets dominate revenue generation while emerging economies show potential for future growth.
 
 ---
 
-# Business Recommendations
+# Key Business Insights
 
-Based on the analysis:
+* Technology category is the **primary revenue driver**
+* APAC region contributes the **largest share of global sales**
+* New York City is the **top-performing city by revenue**
+* Standard shipping mode dominates **customer preference**
+* The United States leads **country-level sales performance**
 
-**Focus on Technology Products**
+---
 
-* Expand technology product offerings.
+# Strategic Recommendations
 
-**Strengthen APAC Market**
+Based on the analysis, the following strategic actions are recommended:
 
-* Increase marketing and logistics support in APAC.
+**Focus on High-performing Product Categories**
+
+Expand technology product offerings to leverage strong customer demand.
+
+**Strengthen Presence in APAC Market**
+
+Increase marketing investment and supply chain support in the APAC region.
 
 **Optimize Shipping Costs**
 
-* Shipping costs are close to total profit and require optimization.
+Shipping costs are close to total profit and should be optimized to improve margins.
 
 **Target High-performing Cities**
 
-* Focus promotions in top-performing cities.
+Focus promotional campaigns in cities generating high revenue.
+
+**Expand Emerging Markets**
+
+Develop targeted marketing strategies in LATAM and EMEA regions.
 
 ---
 
 # Tools Used
 
-* **Power BI** – Data visualization and dashboard creation
-* **Microsoft Excel** – Data preparation and analysis
+* **Power BI** – Dashboard development and data visualization
+* **Microsoft Excel** – Data preparation and transformation
 
 ---
 
 # Project Outcome
 
-This dashboard transforms raw sales data into **clear business insights**, helping stakeholders:
+This dashboard transforms raw sales data into **clear business insights**, enabling decision-makers to:
 
-* Identify **high-performing markets**
-* Understand **customer purchasing patterns**
-* Improve **logistics and operational strategies**
+* Identify **top-performing markets**
+* Understand **product demand trends**
+* Improve **logistics and shipping strategies**
+* Support **data-driven strategic planning**
 
 ---
